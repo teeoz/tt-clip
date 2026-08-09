@@ -4,6 +4,8 @@
 
 TT Clip is a local-first clipboard history app for macOS. It helps you keep text, code, links, images, and files close to the task at hand—then search, preview, copy, paste, or drag them into the next app when you need them.
 
+**中文名称：贴贴剪切板。** This is the unified public home for the product previously introduced as TieTie.
+
 > **Public beta hub**
 >
 > This repository is the public home for releases, product updates, and beta feedback. The TT Clip application source is intentionally not published here.
