@@ -1,0 +1,42 @@
+name: Feature request
+description: Suggest a workflow that would make TT Clip more useful.
+title: "[Idea]: "
+labels: ["enhancement", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Describe the workflow and its friction before suggesting a specific implementation. TT Clip is intentionally local-first.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What are you trying to do?
+      placeholder: "When I ..., it is difficult because ..."
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: What would a better outcome look like?
+    validations:
+      required: true
+  - type: dropdown
+    id: audience
+    attributes:
+      label: Who would benefit most?
+      options:
+        - Everyday clipboard users
+        - Designers and creators
+        - Developers
+        - Researchers and writers
+        - Teams
+        - Other
+    validations:
+      required: true
+  - type: checkboxes
+    id: boundary
+    attributes:
+      label: Product boundary
+      options:
+        - label: I understand that TT Clip should not send clipboard content to an online service without an explicit user action.
+          required: true
